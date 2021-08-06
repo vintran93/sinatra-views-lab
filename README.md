@@ -39,4 +39,8 @@ You can run `learn test` to get the tests passing and see errors.
 
 Using ERB tags, and the [DateTime library](http://ruby-doc.org/stdlib-2.3.1/libdoc/date/rdoc/DateTime.html),
 display today's date in a `p` tag. The date should be formatted to look
-something like this `The date is Wednesday, November 18, 2015`.
+something like this `The date is Friday, August 06, 2021`.
+
+> **Note**: The date must match this format exactly, including the `06` for the
+> date if it's in the first nine days of the month. Check out the spec file to
+> see how to get this format if you're stuck!
